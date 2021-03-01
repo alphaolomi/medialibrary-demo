@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-              <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
+              <a href="{{ route('pages.about') }}" class="font-medium text-gray-500 hover:text-gray-900">About</a>
 
               {{-- <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Features</a> --}}
 
@@ -91,7 +91,7 @@
               </div>
             </div>
             <div class="px-2 pt-2 pb-3 space-y-1">
-              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
 
               {{-- <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a> --}}
 

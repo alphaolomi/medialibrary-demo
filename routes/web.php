@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,14 +15,12 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', "welcome");
+Route::view('/about', "pages.about")->name('pages.about');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
-// ->middleware(['auth'])->name('dashboard');
+// Route::group(['middleware' => ["auth"]],function(){
+    Route::get('/dashboard', [DashboardController::class,'index'])->name('dashboard');
+// });
 
 
 Route::resource('posts', PostController::class);

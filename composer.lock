@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae77f4430484222fa0f0ce864afaa024",
+    "content-hash": "ac8135d86e66dcd7f1bfe43a0f0e7c33",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2629,16 +2629,16 @@
         },
         {
             "name": "sopamo/laravel-filepond",
-            "version": "v0.5.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sopamo/laravel-filepond.git",
-                "reference": "233b67c3bdb019d7429ca9bae488106df3e82ac4"
+                "reference": "09b9adb48505962cf7a432aa10f659c8bef986c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sopamo/laravel-filepond/zipball/233b67c3bdb019d7429ca9bae488106df3e82ac4",
-                "reference": "233b67c3bdb019d7429ca9bae488106df3e82ac4",
+                "url": "https://api.github.com/repos/Sopamo/laravel-filepond/zipball/09b9adb48505962cf7a432aa10f659c8bef986c7",
+                "reference": "09b9adb48505962cf7a432aa10f659c8bef986c7",
                 "shasum": ""
             },
             "require": {
@@ -2646,7 +2646,7 @@
                 "illuminate/http": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
                 "illuminate/routing": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
                 "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
-                "php": "^7.0"
+                "php": "^7.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2681,9 +2681,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Sopamo/laravel-filepond/issues",
-                "source": "https://github.com/Sopamo/laravel-filepond/tree/v0.5.0"
+                "source": "https://github.com/Sopamo/laravel-filepond/tree/v0.6.1"
             },
-            "time": "2020-09-12T17:10:30+00:00"
+            "time": "2021-03-10T14:09:13+00:00"
         },
         {
             "name": "spatie/image",
